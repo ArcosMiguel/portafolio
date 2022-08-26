@@ -1,0 +1,26 @@
+
+
+.body
+{
+	color:  white;
+	background-color: #444343;
+	height: 550px;
+	margin-top: 20px;
+	margin-right:200px;
+	margin-left: 200px;
+	text-align: center;
+	font-size: Open Sans 300, 400 y 700
+	font-size: x-large;
+	border: 2px solid black;
+	
+}
+.mensaje
+{
+	right: 50px;
+	height: 130px;
+}
+.enviar
+{
+	height: 30px;
+	
+}

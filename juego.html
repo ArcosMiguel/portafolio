@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>juego</title>
+<link rel="stylesheet" href="css/juego.css">
+</head>
+<body>
+<header>
+<h1> Juego Preguntas </h1>
+</header>
+
+<div class="container">
+<section id="p0">
+	<center>
+<p>1- ¿Cuántos tentáculos tiene un pulpo?</p>
+<label for="">
+<input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> 5
+</label>
+<label for="">
+<input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> 7
+</label>
+<label for="">
+<input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> 8
+</label>
+</center>
+</section>
+<section id="p1">
+	<center>
+<p>2- ¿Cuál es la cuarta letra del abecedario?</p>
+<label for="">
+<input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> A
+</label>
+<label for="">
+<input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> R
+</label>
+<label for="">
+<input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> D
+</label>
+</center>
+</section>
+<section id="p2">
+	<center>
+<p>3- ¿Cuántos meses tiene un año?</p>
+<label for="">
+<input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> 10
+</label>
+<label for="">
+<input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> 12
+</label>
+<label for="">
+<input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> 7
+</label>
+</center>
+</section>
+<section id="p3">
+	<center>
+<p>4- ¿En qué periodo de la prehistoria fue descubierto el fuego?</p>
+<label for="">
+<input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Paleolítico
+</label>
+<label for="">
+<input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Neolítico
+</label>
+<label for="">
+<input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Edad de Piedra
+</label>
+</section>
+</center>
+<section id="p4">
+	<center>
+<p>5- ¿Dónde se encuentra el desierto del Sahara?</p>
+<label for="">
+<input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Africa
+</label>
+<label for="">
+<input type="radio" value="2" name="p4" onclick="respuesta(4,this)">  Antartida
+</label>
+<label for="">
+<input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Chile
+</label>
+</center>
+</section>
+<br>
+<button onclick="corregir()">ENVIAR</button>
+<div><br><button class="r"><a href="trabajos.html">Volver</a></button>  </div>
+<h2>Preguntas Correctas: <span id="resultado"></span></h2>
+<br>
+
+</div>
+
+<script src="css/script.js"></script>
+</body>
+</html>
+
+
+
